@@ -1,4 +1,4 @@
-ssh-keygen -p -f /home/kali/Desktop/my_ssh_key #key 
+#ssh-keygen -p -f /home/kali/Desktop/my_ssh_key #key 
 
 import paramiko
 from cryptography.hazmat.primitives import serialization
@@ -40,3 +40,4 @@ try:
 
 except Exception as e:
     print(f"Đã xảy ra lỗi: {str(e)}")
+   
